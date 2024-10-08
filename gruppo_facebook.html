@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruppo Facebook - Sito Ufficiale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        /* Header */
+        header {
+            background-color: #4267B2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Container */
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        /* Main content area */
+        .main-content {
+            width: 60%;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Post box */
+        .post-box {
+            border: 1px solid #ccd0d5;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Comment section */
+        .comment-section {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        /* Forms */
+        form {
+            margin-top: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccd0d5;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4267B2;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #365899;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f0f2f5;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #616770;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Benvenuti nel Gruppo Facebook</h1>
+    <p>Il punto di incontro per tutti gli iscritti al nostro gruppo</p>
+</header>
+
+<div class="container">
+    <div class="main-content">
+        <!-- Post form -->
+        <div class="post-box">
+            <h3>Inserisci un nuovo post</h3>
+            <form>
+                <textarea placeholder="Scrivi qualcosa..." rows="4"></textarea>
+                <button type="submit">Pubblica</button>
+            </form>
+        </div>
+
+        <!-- Example Post -->
+        <div class="post-box">
+            <h4>Nome Utente</h4>
+            <p>Questo è un esempio di post all'interno del gruppo. Qui appariranno i contenuti condivisi dagli utenti.</p>
+
+            <!-- Comment section -->
+            <div class="comment-section">
+                <h5>Commenti</h5>
+                <p><strong>Utente 1:</strong> Questo è un commento di esempio!</p>
+                <form>
+                    <input type="text" placeholder="Scrivi un commento...">
+                    <button type="submit">Commenta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Gruppo Facebook | Sito non ufficiale | Contatti: email@example.com</p>
+</footer>
+
+</body>
+</html>
